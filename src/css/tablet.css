@@ -1,0 +1,28 @@
+/* Styles pour les grands écrans */
+@media (min-width: 768px) {
+    .trio {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .t-left, .t-right {
+      flex-direction: row;
+      margin: 0;
+    }
+  
+    .t-left p, .t-right p {
+      margin: 0 20px;
+    }
+  
+    .t-pratique img {
+      width: 300px;
+    }
+  
+    .c-pratique img, .c-numerique img, .c-personnel img {
+      max-width: 500px;
+    }
+  
+    video {
+      width: 500px;
+    }
+}
